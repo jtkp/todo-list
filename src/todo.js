@@ -3,7 +3,7 @@
 // refer to the same prototype, using less memory than a factory function
 
 // factory functions are more used for one-off objects
-class todo {
+class Todo {
     // #privateVar = 0;
     constructor(title, description, dueDate, priority) {
         // this.#privateVar = 1;
@@ -16,5 +16,4 @@ class todo {
 };
 
 export {
-    todo,
 };
